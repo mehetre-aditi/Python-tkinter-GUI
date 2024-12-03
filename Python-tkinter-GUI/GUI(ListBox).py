@@ -1,0 +1,12 @@
+import tkinter as tk
+parent=tk.Tk()
+parent.geometry("300x300")
+label1=tk.Label(parent,text="A list of computer science courses")
+listbox=tk.Listbox(parent)
+listbox.insert(1,"PHP")
+listbox.insert(2,"python")
+listbox.insert(3,"java")
+listbox.insert(4,"c#")
+label1.pack()
+listbox.pack()
+parent.mainloop()
